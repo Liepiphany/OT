@@ -12,15 +12,15 @@
 本项目依赖于以下关键库，感谢这些开源项目的贡献者：
 
 #### Python 依赖
-Qiskit: 一个开源的量子计算软件开发工具包。
+*   Qiskit: 一个开源的量子计算软件开发工具包。
 
-OTT-JAX: 一个基于 JAX 的可扩展最优传输库。
+*   OTT-JAX: 一个基于 JAX 的可扩展最优传输库。
 
-POT (Python Optimal Transport): 用于解决最优传输相关问题的 Python 库。
+*   POT (Python Optimal Transport): 用于解决最优传输相关问题的 Python 库。
 
-其他科学计算库: pandas, numpy, matplotlib, seaborn, scikit-learn, tkinter 等。
+*   其他科学计算库: pandas, numpy, matplotlib, seaborn, scikit-learn, tkinter 等。
 
 #### R 依赖
-Splatter: 一个用于模拟单细胞 RNA 测序数据的 R 包，通过 Bioconductor 分发。
+*    Splatter: 一个用于模拟单细胞 RNA 测序数据的 R 包，通过 Bioconductor 分发。
 
 依赖平台: Bioconductor
