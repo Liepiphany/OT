@@ -2,22 +2,9 @@ if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 BiocManager::install(version = "3.21")
 
-BiocManager::install(c("GenomicFeatures", "AnnotationDbi"))
+BiocManager::install(c("splatter", "scater"))
 library(splatter)
 library(scater)
-BiocManager::install(c("splatter", "scater"))
-library(ggplot2)
-library(scuttle)
-library(Biobase)
-library(generics)
-library(S4Vectors)
-
-
-
-help("splatter")
-
-library(splatter)
-
 # R 代码 - 生成基础数据 X
 library(splatter)
 
